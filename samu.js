@@ -1585,17 +1585,7 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 		}
 
 	    
-	    ///////////////////////FUNCIONES CREADAS POR SAMU330\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-	    
-
-
-                    
-			Group) return reply(mess.only.group)
-					if (!isNsfw) return reply(mess.nsfw)
-					porn = await getJson('https://meme-api.herokuapp.com/gimme/lesbians', {
-					method: 'get'
-					})
-					
+	    ///////////////////////FUNCIONES CREADAS POR SAMU330\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	//Zona de Comandos🛵
 switch (command) {
 

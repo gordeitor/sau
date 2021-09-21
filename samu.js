@@ -1594,12 +1594,11 @@ case 'menu':
 case 'comandos':
 
 samu330.sendMessage(from, fs.readFileSync(`./temp/menu.webp`), sticker, {quoted: fimg, "forwardingScore": 9999, "isForwarded": true})
-reply(`*Si tienes problemas con el nuevo menu, usa el anterior, el nuevo comando para el menu anterior es: ${prefix}menuofc*`)
+reply(`*pendejoes: ${prefix}menuofc*`)
 break
 
 case 'menuofc':
-
-redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com/samu330wabot', '*😊Seamos amigos en facebook!!* https://www.facebook.com/samu330wabot']
+redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com/DON PENDEJO', '*😊Seamos amigos en facebook!!* https://www.facebook.com/DON PENDEJO']
 opcion = redes[Math.floor(Math.random() * redes.length)]
 
 var num = sam.participant

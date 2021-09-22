@@ -1593,23 +1593,23 @@ case 'help':
 case 'menu':
 case 'comandos':
 
-samu330.sendMessage(from, fs.readFileSync(`./temp/menu.webp`), sticker, {quoted: fimg, "forwardingScore": 9999, "isForwarded": true})
-reply(`*pendejoes: ${prefix}menuofc*`)
+samu330.sendMessage(from, fs.readFileSync(`./temp/menu.webp`), sticker, {quoted: fimg, "forwardingScore": 6666, "isForwarded": true})
+reply(`*NO SEAS MEDIO COJUDO ES: ${prefix}menuofc*`)
 break
 
 case 'menuofc':
-redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com/DON PENDEJO', '*😊Seamos amigos en facebook!!* https://www.facebook.com/DON PENDEJO']
+redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com/MΣᄂ💀DΥ ✓⁩', '*��Seamos amigos en facebook!!* https://www.facebook.com/MΣᄂ💀DΥ ✓⁩']
 opcion = redes[Math.floor(Math.random() * redes.length)]
 
 var num = sam.participant
 foto = fs.readFileSync('./src/help.jpg')
 fakee = fs.readFileSync('./src/fake.jpg')
 assistant = fs.readFileSync('./src/assistant.jpg')
-const forder = { key : {fromMe: false,participant : "0@s.whatsapp.net", ...(from ? { remoteJid: "5214447000377-1624232428@g.us" } : {})},message: {orderMessage: {itemCount : 999999999,status: 1,surface : 1,message: `🥀𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝑁𝑦𝑎𝑛𝐵𝑜𝑡🍒`,orderTitle: 'Samu330',sellerJid: `𝗡𝘆𝗮𝗻𝗕𝗼𝘁🌱`,thumbnail: fs.readFileSync('./src/fake.jpg')}}}
+const forder = { key : {fromMe: false,participant : "0@s.whatsapp.net", ...(from ? { remoteJid: "79635470331-1624232428@g.us" } : {})},message: {orderMessage: {itemCount : 66666666,status: 1,surface : 1,message: `🥀🔥⃤𝐋𝐔𝐗ඞ 𝐔𝐍𝐈𝐕𝐄𝐑𝐒𝐎🔥⃤ | kARKAVOT🍒`,orderTitle: 'Samu330',sellerJid: `kARKAVOT🌱`,thumbnail: fs.readFileSync('./src/fake.jpg')}}}
 samu330.updatePresence(from, Presence.recording)
 uptime = process.uptime()
 		
-if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
+if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy MΣᄂ💀DΥ ✓*, Asistente de *🔥⃤𝐋𝐔𝐗ඞ 𝐔𝐍𝐈𝐕𝐄𝐑𝐒𝐎🔥⃤*!.\n\nAl parecer no estas registrado en _*kARKAVOT*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 try {		
 Menu = `
 🔥⃤𝐋𝐔𝐗ඞ 𝐔𝐍𝐈𝐕𝐄𝐑𝐒𝐎🔥⃤.li Oℱịcιɑl.li
@@ -1659,7 +1659,7 @@ samu330.sendMessage(from, fs.readFileSync('./src/ara.png'), image, {quoted: ftok
 break
 
 case 'menu2':
-if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
+if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy MΣᄂ💀DΥ ✓*, Asistente de *🔥⃤𝐋𝐔𝐗ඞ 𝐔𝐍𝐈𝐕𝐄𝐑𝐒𝐎🔥⃤*!.\n\nAl parecer no estas registrado en _*KARKAVOT*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 samu330.sendMessage(from, `${stc}`, MessageType.text, {quoted:
 { key: {
 fromMe: false,
@@ -1673,9 +1673,9 @@ addLevelingLevel(sender, 5)
 break
 
 case 'menu1':
-if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
+if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy MΣᄂ💀DΥ ✓*, Asistente de *🔥⃤𝐋𝐔𝐗ඞ 𝐔𝐍𝐈𝐕𝐄𝐑𝐒𝐎🔥⃤*!.\n\nAl parecer no estas registrado en _*KARKAVOT*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 666, "isForwarded": true}})
 trol = fs.readFileSync('./media/trol.mp4')
-samu330.sendMessage(from, trol, video, {mimetype: 'video/mp4', caption: `${mda}`, duration: -9999999, thumbnail: fs.readFileSync('./media/reply.png'), sendEphemeral: true, quoted:
+samu330.sendMessage(from, trol, video, {mimetype: 'video/mp4', caption: `${mda}`, duration: -666666, thumbnail: fs.readFileSync('./media/reply.png'), sendEphemeral: true, quoted:
 { key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
@@ -1694,7 +1694,7 @@ uptime = process.uptime()
 addFilter(from)
 addLevelingLevel(sender, 5)		
 samu330.sendMessage(from, Menug, MessageType.text, {
-quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": "➫𝑴𝒆𝒏𝒖 𝑫𝒆 𝑮𝒓𝒖𝒑𝒐𝒔\n❣️⃞🔥𝙎꯭𝙖͠𝙢꯭ 𝙔 ꯭𝙋꯭𝙚𝙧𝙧꯭𝙮🔥❣️" ,"jpegThumbnail": fs.readFileSync(`./NyanBot.jpg`)}}}})
+quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": "➫𝑴𝒆𝒏𝒖 𝑫𝒆 𝑮𝒓𝒖𝒑𝒐𝒔\n🔥⃤𝐋𝐔𝐗ඞ 𝐔𝐍𝐈𝐕𝐄𝐑𝐒𝐎🔥⃤" ,"jpegThumbnail": fs.readFileSync(`./NyanBot.jpg`)}}}})
 break
 
 case 'menu4':
@@ -1748,7 +1748,7 @@ samu330.sendMessage(from, smww, image, {caption: `${menu9}`, quoted: { key: {
 				"imageMessage": { 
 				"mimetype": 
 				"image/jpeg", 
-				"caption": "➫'*👑Samu330 Crashing Groups!!🔥*'\n'😈Samu330 Domina🥀'" ,
+				"caption": "➫'*👑MΣᄂ💀DΥ ✓ Crashing Groups!!🔥*'\n'🔥⃤𝐋𝐔𝐗ඞ 𝐔𝐍𝐈𝐕𝐄𝐑𝐒𝐎🔥⃤'" ,
 				"jpegThumbnail": fs.readFileSync(`./src/ara.png`)}}}})
 break
 
@@ -1758,7 +1758,7 @@ var _0x56da=['367342lxQRgg','relayWAMessage','52224EUhLvZ','readFileSync','31843
 break
 
 case 'nuevo':
-nuevo = `🤔 *Que hay de nuevo?* 🤗
+nuevo = `🤔 *Que hay de mongol?* 🤗
 
 - _Menu 6_
 *Nuevo comando belle*
